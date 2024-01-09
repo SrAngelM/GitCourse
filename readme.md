@@ -12,4 +12,15 @@ Nos arroja el archivo en color verde, porque falta agregar **`GIT COMMIT -M "COM
 
 Se puede usar infinitos commits para cada cambio pero solo una vez por ejecucion de **`GIT ADD`**, luego para ver el historia de commits, usamos el comando **`GIT LOG`**
 
-![Alt text](image-2.png)
+![LOG](image-2.png)
+
+Se puede hacer comparaciones de commits con el comando **`GIT DIFF COMMIT1 COMMIT2`**, es preferible que primero sea el mas antiguo y el segundo el mas nuevo.
+
+![Alt text](image-3.png)
+
+##Explicando el Staging
+
+El staging es el lugar donde se guardan temporalmente los cambios, para luego ser llevados definitivamente al repositorio. El repositorio es el lugar donde se guardan todos los registros de los cambios realizados a los archivos.
+![Alt text](image-4.png)
+
+![Alt text](image-5.png)
